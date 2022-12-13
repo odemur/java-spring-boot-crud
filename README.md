@@ -74,7 +74,7 @@ Please follow carefully step by step instructions below:
 
 **Parameters for PostgreSQL**
 ```
-#spring.datasource.url = jdbc:postgresql://localhost:5432/customer
+#spring.datasource.url = jdbc:postgresql://localhost:5432/test
 #spring.datasource.username	= postgres
 #spring.datasource.password	= 123
 #spring.jpa.hibernate.ddl-auto = update
@@ -96,7 +96,7 @@ Please follow carefully step by step instructions below:
 
 **Parameters for MySQL**
 ```
-spring.datasource.url = jdbc:mysql://localhost:3306/customer
+spring.datasource.url = jdbc:mysql://localhost:3306/test
 spring.datasource.username = root
 spring.datasource.password = 123
 spring.jpa.hibernate.ddl-auto = update
