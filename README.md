@@ -31,7 +31,7 @@ Please follow carefully step by step instructions below:
 
 ### Using Docker for database
 
-   * For PostgreSQL:
+   * For PostgreSQL
 
    ```bash
    docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=123 -d postgres
@@ -40,7 +40,7 @@ Please follow carefully step by step instructions below:
    docker exec -it postgres psql -U postgres 
    ```
 
-   * For MySQL:
+   * For MySQL
    ```bash
    docker run --name=mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123 -d mysql/mysql-server:5.7
    ```
@@ -117,6 +117,6 @@ There is a file called **users.json** in the src/main/resources/json directory w
    mvn java-spring-boot-crud:run
  ```
  
- Open http://localhost:8080/ in your browser and enjoy!
+ Open http://localhost:8080/ in your browser.
  
  
